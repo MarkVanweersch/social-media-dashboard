@@ -25,11 +25,22 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+Desktop dark mode:
+
+![](./solution/desktop-dark-mode.png)
+
+Mobile dark mode:
+
+![](./solution/mobile-dark-mode.png)
+
+Desktop light mode:
+
+![](./solution/desktop-light-mode.png)
+
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [FrontendMentor.io](https://www.frontendmentor.io/challenges/social-media-dashboard-with-theme-switcher-6oY8ozp_H/hub/social-media-dashboard-using-grid-flexbox-and-utility-classes-EyCOd9ICqR)
 - Live Site URL: [MarkVanweersch.GitHub.io](https://markvanweersch.github.io/social-media-dashboard/)
 
 ## My process
