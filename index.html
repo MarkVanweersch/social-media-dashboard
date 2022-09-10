@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+
+  <script src="./script.js"></script>
+
+</head>
+<body class="dark">
+
+  <div class="background-top dark"></div>
+
+  <main>
+
+    <header>
+
+      <div class="title-container">
+        <h1 class="title dark primary-text-colour">Social Media Dashboard</h1>
+        <h2 class="followers-total dark secondary-text-colour">Total followers: 23,004</h2>
+      </div>
+
+      <hr class="divider-mobile dark">
+
+      <div class="mode-toggle-container">
+        <span class="mode-toggle-text dark secondary-text-colour">Dark Mode</span>
+
+        <div class="toggle-slider">
+          <div class="toggle-slider-inside dark"></div>
+        </div>
+      </div>
+    </header>
+
+    <section class="followers-container">
+
+      <div class="follower-card dark fb">
+        <div class="follower-title-container">
+          <img class="follower-icon" src="./images/icon-facebook.svg" alt="Facebook icon">
+          <h3 class="follower-title dark secondary-text-colour">@nathanf</h3>          
+        </div>
+
+        <p class="follower-amount dark primary-text-colour">1987</p>
+
+        <p class="follower-text dark secondary-text-colour">FOLLOWERS</p>
+
+        <div class="follower-change-container">
+          <img class="follower-change-arrow" src="./images/icon-up.svg" alt="Icon pointing up">
+          <span class="follower-change-text positive-colour">12 Today</span>
+        </div>
+      </div>
+
+      <div class="follower-card dark twitter">
+        <div class="follower-title-container">
+          <img class="follower-icon" src="./images/icon-twitter.svg" alt="Twitter icon">
+          <h3 class="follower-title dark secondary-text-colour">@nathanf</h3>          
+        </div>
+
+        <p class="follower-amount dark primary-text-colour">1044</p>
+
+        <p class="follower-text dark secondary-text-colour">FOLLOWERS</p>
+
+        <div class="follower-change-container">
+          <img class="follower-change-arrow" src="./images/icon-up.svg" alt="Icon pointing up">
+          <span class="follower-change-text positive-colour">99 Today</span>
+        </div>
+      </div>
+
+      <div class="follower-card dark insta">
+        <div class="follower-title-container">
+          <img class="follower-icon" src="./images/icon-instagram.svg" alt="Instagram icon">
+          <h3 class="follower-title dark secondary-text-colour">@realnathanf</h3>          
+        </div>
+
+        <p class="follower-amount dark primary-text-colour">11k</p>
+
+        <p class="follower-text dark secondary-text-colour">FOLLOWERS</p>
+
+        <div class="follower-change-container">
+          <img class="follower-change-arrow" src="./images/icon-up.svg" alt="Icon pointing up">
+          <span class="follower-change-text positive-colour">1099 Today</span>
+        </div>
+      </div>
+
+      <div class="follower-card dark yt">
+        <div class="follower-title-container">
+          <img class="follower-icon" src="./images/icon-youtube.svg" alt="Youtube icon">
+          <h3 class="follower-title dark secondary-text-colour">Nathan F.</h3>          
+        </div>
+
+        <p class="follower-amount dark primary-text-colour">8239</p>
+
+        <p class="follower-text dark secondary-text-colour">Subscribers</p>
+
+        <div class="follower-change-container">
+          <img class="follower-change-arrow" src="./images/icon-down.svg" alt="Icon pointing up">
+          <span class="follower-change-text negative-colour">144 Today</span>
+        </div>
+      </div>
+      
+    </section>
+
+
+    <section>
+
+      <h2 class="overview-title dark primary-text-colour">Overview - Today</h2>
+
+      <div class="overview-cards-container">
+
+        <div class="overview-card dark">
+          <div class="overview-card-top-row">
+            <h3 class="overview-card-title dark secondary-text-colour">Page Views</h3>
+            <img src="./images/icon-facebook.svg" alt="Facebook icon">
+          </div>
+  
+          <div class="overview-card-bottom-row">
+            <p class="overview-card-value dark primary-text-colour">87</p>
+  
+            <div class="overview-card-change-container">
+              <img src="./images/icon-up.svg" alt="Icon pointing up" class="follower-change-arrow">
+              <p class="overview-card-change-text positive-colour">3%</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="overview-card dark">
+          <div class="overview-card-top-row">
+            <h3 class="overview-card-title dark secondary-text-colour">Likes</h3>
+            <img src="./images/icon-facebook.svg" alt="Facebook icon">
+          </div>
+  
+          <div class="overview-card-bottom-row">
+            <p class="overview-card-value dark primary-text-colour">52</p>
+  
+            <div class="overview-card-change-container">
+              <img src="./images/icon-down.svg" alt="Icon pointing down" class="follower-change-arrow">
+              <p class="overview-card-change-text negative-colour">2%</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="overview-card dark">
+          <div class="overview-card-top-row">
+            <h3 class="overview-card-title dark secondary-text-colour">Likes</h3>
+            <img src="./images/icon-instagram.svg" alt="Instagram icon">
+          </div>
+  
+          <div class="overview-card-bottom-row">
+            <p class="overview-card-value dark primary-text-colour">5462</p>
+  
+            <div class="overview-card-change-container">
+              <img src="./images/icon-up.svg" alt="Icon pointing up" class="follower-change-arrow">
+              <p class="overview-card-change-text positive-colour">2257%</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="overview-card dark">
+          <div class="overview-card-top-row">
+            <h3 class="overview-card-title dark secondary-text-colour">Profile Views</h3>
+            <img src="./images/icon-instagram.svg" alt="Instagram icon">
+          </div>
+  
+          <div class="overview-card-bottom-row">
+            <p class="overview-card-value dark primary-text-colour">52k</p>
+  
+            <div class="overview-card-change-container">
+              <img src="./images/icon-up.svg" alt="Icon pointing up" class="follower-change-arrow">
+              <p class="overview-card-change-text positive-colour">1375%</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="overview-card dark">
+          <div class="overview-card-top-row">
+            <h3 class="overview-card-title dark secondary-text-colour">Retweets</h3>
+            <img src="./images/icon-twitter.svg" alt="Twitter icon">
+          </div>
+  
+          <div class="overview-card-bottom-row">
+            <p class="overview-card-value dark primary-text-colour">117</p>
+  
+            <div class="overview-card-change-container">
+              <img src="./images/icon-up.svg" alt="Icon pointing up" class="follower-change-arrow">
+              <p class="overview-card-change-text positive-colour">303%</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="overview-card dark">
+          <div class="overview-card-top-row">
+            <h3 class="overview-card-title dark secondary-text-colour">Likes</h3>
+            <img src="./images/icon-twitter.svg" alt="Twitter icon">
+          </div>
+  
+          <div class="overview-card-bottom-row">
+            <p class="overview-card-value dark primary-text-colour">507</p>
+  
+            <div class="overview-card-change-container">
+              <img src="./images/icon-up.svg" alt="Icon pointing up" class="follower-change-arrow">
+              <p class="overview-card-change-text positive-colour">553%</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="overview-card dark">
+          <div class="overview-card-top-row">
+            <h3 class="overview-card-title dark secondary-text-colour">Likes</h3>
+            <img src="./images/icon-youtube.svg" alt="Youtube icon">
+          </div>
+  
+          <div class="overview-card-bottom-row">
+            <p class="overview-card-value dark primary-text-colour">107</p>
+  
+            <div class="overview-card-change-container">
+              <img src="./images/icon-down.svg" alt="Icon pointing down" class="follower-change-arrow">
+              <p class="overview-card-change-text negative-colour">19%</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="overview-card dark">
+          <div class="overview-card-top-row">
+            <h3 class="overview-card-title dark secondary-text-colour">Total Views</h3>
+            <img src="./images/icon-youtube.svg" alt="Youtube icon">
+          </div>
+  
+          <div class="overview-card-bottom-row">
+            <p class="overview-card-value dark primary-text-colour">1407</p>
+  
+            <div class="overview-card-change-container">
+              <img src="./images/icon-down.svg" alt="Icon pointing down" class="follower-change-arrow">
+              <p class="overview-card-change-text negative-colour">12%</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      
+    </section>
+
+    <footer class="attribution dark primary-text-colour">
+      Challenge by <a href="https://www.frontendmentor.io/challenges/social-media-dashboard-with-theme-switcher-6oY8ozp_H/hub/social-media-dashboard-with-theme-switcher-ho0s9GlMWQ" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://markvanweersch.github.io/">Mark Vanweersch</a>.
+    </footer>
+
+  </main>
+  
+  
+
+</body>
+</html>
